@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: auto; */
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 80px;
+    height: 10vh;
+}
+
+.header img{
+   height: 50px;
+}
+
+.header nav{
+    position: relative;
+    right: 280px;
+}
+.header nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.header nav ul li{
+     text-decoration: none;
+     list-style: none;
+     display: inline-block;
+     margin: 0px 25px;
+     font-weight: 500;
+
+}
+
+.header button{
+    position: relative;
+    right: 0px;
+    width: 130px ;
+    height: 40px ;
+    background-color:  #6a67bb;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.hero{
+    display: flex;
+    justify-content:space-between ;
+    /* flex-direction: column; */
+    height: 100vh;
+    
+    
+}
+
+.hero-content{
+    margin-top: 140px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-heading{
+    font-size: 35px;
+    /* font-weight; */
+}
+
+h1{
+    font-weight: 600;
+}
+
+.hero-heading span{
+    color: #5b57b4;
+}
+
+.hero-para{
+    margin-top: 10px;
+    font-size: 12px;
+    
+}
+.hero-para p{
+    font-size: 13px ;
+    font-weight: 400;
+}
+
+.hero-img{
+    margin-top: 35px; 
+    margin-right: 80px;
+}
+
+.hero-button{
+    width: 200px;
+    height: 200px;
+    /* font-size: px; */
+}
+.hero-button button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5b57b4;
+    color: white;
+
+}
+
